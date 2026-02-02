@@ -1,6 +1,8 @@
 # API-mongodb
 API em node.js com conexão no mongo db para estudo
 
+REQUISITOS TER NODE E NPM
+
 recebe conteudo em JSON no body
 
 {
@@ -13,7 +15,7 @@ npm i
 
 para instalar as depencias e depois
 
-npm run dev para iniciar o servidor na porta http://localhost:3000/usuarios
+node server.js para iniciar o servidor na porta http://localhost:3000/usuarios
 
 no delete e put passe o id do usuario a ser editado ou deletado
 
